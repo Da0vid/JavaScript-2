@@ -93,6 +93,7 @@ console.log('Precios mayores a 200:', PreciosFilter);
 const PreciosMap = Precios.map(precio=>{
     return precio=precio-(precio*0.20)
 })
+console.log('Los precios con 20% de descuento son: '+PreciosMap)
 
 //Imprimir cada precio con un texto adicional
 Precios.forEach(precio => console.log('El precio es: '+precio+'$'))
