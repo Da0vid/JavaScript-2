@@ -9,7 +9,7 @@ console.log(FilterEdad)
 
 //Se le suma 10 a los menores de edad (MAP)
 let MapEdad = Edad.map(edad=>{
-    if(edad<18)
+    if(edad>18)
     {
         return edad
     }else
